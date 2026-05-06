@@ -1,0 +1,56 @@
+{
+    "title": "plan_annotations",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID"
+        },
+        "annotation_id": {
+            "type": "string",
+            "description": "Unique annotation identifier"
+        },
+        "author_id": {
+            "type": "string",
+            "description": "Author collaborator ID"
+        },
+        "author_name": {
+            "type": "string",
+            "description": "Author display name"
+        },
+        "author_role": {
+            "type": "string",
+            "description": "Author collaborator role"
+        },
+        "avatar_color": {
+            "type": "string",
+            "description": "Avatar color hex"
+        },
+        "type": {
+            "type": "string",
+            "description": "Annotation type: comment, suggestion, modification"
+        },
+        "target_section": {
+            "type": "string",
+            "description": "Which section of the plan this annotation targets"
+        },
+        "content": {
+            "type": "string",
+            "description": "Annotation content"
+        },
+        "ann_timestamp": {
+            "type": "integer",
+            "description": "Annotation timestamp in milliseconds"
+        }
+    },
+    "required": [
+        "id",
+        "user_id",
+        "annotation_id",
+        "content"
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "title": "messages",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID"
+        },
+        "msg_id": {
+            "type": "string",
+            "description": "Unique message identifier"
+        },
+        "role": {
+            "type": "string",
+            "description": "Message role: user, assistant, or collaborator"
+        },
+        "content": {
+            "type": "string",
+            "description": "Message content"
+        },
+        "author_id": {
+            "type": "string",
+            "description": "Author collaborator ID if role is collaborator"
+        },
+        "author_name": {
+            "type": "string",
+            "description": "Author display name"
+        },
+        "author_role": {
+            "type": "string",
+            "description": "Author collaborator role"
+        },
+        "avatar_color": {
+            "type": "string",
+            "description": "Avatar color hex"
+        },
+        "mention": {
+            "type": "string",
+            "description": "Mentioned collaborator id"
+        },
+        "msg_timestamp": {
+            "type": "integer",
+            "description": "Message timestamp in milliseconds"
+        }
+    },
+    "required": [
+        "id",
+        "user_id",
+        "msg_id",
+        "role",
+        "content"
+    ]
+}

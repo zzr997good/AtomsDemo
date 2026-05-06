@@ -1,0 +1,77 @@
+2026-05-06 09:27:32,286 - main - INFO - === Logging system initialized ===
+2026-05-06 09:27:32,287 - main - INFO - Log file: logs/app_20260506_092732.log
+2026-05-06 09:27:32,287 - main - INFO - Log level: INFO
+2026-05-06 09:27:32,287 - main - INFO - Timestamp: 20260506_092732
+2026-05-06 09:27:33,733 - main - INFO - Included router: routers.aihub.router
+2026-05-06 09:27:33,836 - main - INFO - Included router: routers.app_sessions.router
+2026-05-06 09:27:33,880 - main - INFO - Included router: routers.auth.router
+2026-05-06 09:27:33,883 - main - INFO - Included router: routers.health.router
+2026-05-06 09:27:33,944 - main - INFO - Included router: routers.messages.router
+2026-05-06 09:27:34,018 - main - INFO - Included router: routers.plan_annotations.router
+2026-05-06 09:27:34,079 - main - INFO - Included router: routers.settings.router
+2026-05-06 09:27:34,119 - main - INFO - Included router: routers.storage.router
+2026-05-06 09:27:34,130 - main - INFO - Included router: routers.user.router
+2026-05-06 09:27:34,132 - main - INFO - === Application startup initiated ===
+2026-05-06 09:27:34,132 - services.database - INFO - Ignore creating tables
+2026-05-06 09:27:34,132 - services.mock_data - INFO - Ignore initialize data
+2026-05-06 09:27:34,133 - services.auth - INFO - Ignore initialize admin
+2026-05-06 09:27:34,133 - main - INFO - === Application startup completed successfully ===
+2026-05-06 09:27:39,697 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-05-06 09:27:39,953 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/entities/messages
+2026-05-06 09:27:40,181 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/entities/plan_annotations
+2026-05-06 09:27:40,410 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/entities/app_sessions
+2026-05-06 09:27:41,846 - dependencies.auth - DEBUG - Authentication required for request POST /api/v1/entities/app_sessions
+2026-05-06 09:28:03,979 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-05-06 09:28:04,210 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/entities/messages
+2026-05-06 09:28:04,438 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/entities/plan_annotations
+2026-05-06 09:28:04,669 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/entities/app_sessions
+2026-05-06 09:28:05,907 - dependencies.auth - DEBUG - Authentication required for request POST /api/v1/entities/app_sessions
+2026-05-06 09:28:36,606 - core.config - DEBUG - Read dynamic attribute frontend_url from environment variable FRONTEND_URL
+2026-05-06 09:28:36,606 - core.config - DEBUG - Read dynamic attribute oidc_issuer_url from environment variable OIDC_ISSUER_URL
+2026-05-06 09:28:40,469 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-05-06 09:28:42,247 - core.database - DEBUG - [DB_OP] Starting get_db session creation
+2026-05-06 09:28:42,248 - core.database - WARNING - Database session maker not available, attempting lazy initialization...
+2026-05-06 09:28:42,248 - core.database - WARNING - Database not initialized, attempting lazy initialization...
+2026-05-06 09:28:42,248 - core.database - INFO - Starting database initialization...
+2026-05-06 09:28:42,248 - core.config - DEBUG - Read dynamic attribute database_url from environment variable DATABASE_URL
+2026-05-06 09:28:42,248 - core.database - INFO - Normalizing database URL for async compatibility...
+2026-05-06 09:28:42,250 - core.database - INFO - Creating async database engine...
+2026-05-06 09:28:42,251 - core.database - INFO - Using QueuePool with connection pooling for non-Lambda environment
+2026-05-06 09:28:42,302 - core.database - INFO - Database engine created successfully
+2026-05-06 09:28:42,302 - core.database - INFO - Creating async session maker...
+2026-05-06 09:28:42,302 - core.database - INFO - Async session maker created successfully
+2026-05-06 09:28:42,302 - core.database - INFO - Database connection initialized successfully
+2026-05-06 09:28:42,302 - core.database - DEBUG - [DB_OP] Starting create_tables
+2026-05-06 09:28:42,302 - core.database - INFO - 🔧 Starting table creation...
+2026-05-06 09:28:43,810 - core.database - INFO - Tables initialized successfully
+2026-05-06 09:28:43,810 - core.database - DEBUG - [DB_OP] Create tables completed in 1.5081s
+2026-05-06 09:28:43,874 - core.database - INFO - Lazy database initialization completed successfully
+2026-05-06 09:28:43,874 - core.database - DEBUG - [DB_OP] Database session created successfully in 1.6269s
+2026-05-06 09:28:44,532 - routers.auth - DEBUG - [get_dynamic_backend_url] mgx-external-domain=None, x-forwarded-host=9n5g8d-818e181075f347d3a78e5344986f2e6c-preview.app.atoms.dev, host=localhost, scheme=https, dynamic_url=https://9n5g8d-818e181075f347d3a78e5344986f2e6c-preview.app.atoms.dev
+2026-05-06 09:28:44,533 - routers.auth - INFO - [login] Starting OIDC flow with redirect_uri=https://9n5g8d-818e181075f347d3a78e5344986f2e6c-preview.app.atoms.dev/api/v1/auth/callback
+2026-05-06 09:28:44,533 - core.config - DEBUG - Read dynamic attribute oidc_client_id from environment variable OIDC_CLIENT_ID
+2026-05-06 09:28:44,533 - core.config - DEBUG - Read dynamic attribute oidc_scope from environment variable OIDC_SCOPE
+2026-05-06 09:28:44,533 - core.database - DEBUG - [DB_OP] Database session cleanup after 2.2861s
+2026-05-06 09:30:22,265 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-05-06 09:30:24,774 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-05-06 09:30:25,015 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/entities/messages
+2026-05-06 09:30:25,244 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/entities/plan_annotations
+2026-05-06 09:30:25,638 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/entities/app_sessions
+2026-05-06 09:30:26,879 - dependencies.auth - DEBUG - Authentication required for request POST /api/v1/entities/app_sessions
+2026-05-06 09:30:32,816 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-05-06 09:30:32,831 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-05-06 09:30:32,954 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-05-06 09:30:33,193 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/entities/messages
+2026-05-06 09:30:33,413 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/entities/plan_annotations
+2026-05-06 09:30:33,635 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/entities/app_sessions
+2026-05-06 09:30:35,010 - dependencies.auth - DEBUG - Authentication required for request POST /api/v1/entities/app_sessions
+2026-05-06 09:30:37,111 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-05-06 09:30:39,256 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-05-06 09:30:39,630 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/entities/messages
+2026-05-06 09:30:39,850 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/entities/plan_annotations
+2026-05-06 09:30:40,080 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/entities/app_sessions
+2026-05-06 09:30:41,331 - dependencies.auth - DEBUG - Authentication required for request POST /api/v1/entities/app_sessions
+2026-05-06 09:31:15,971 - services.database - DEBUG - [DB_OP] Starting database close
+2026-05-06 09:31:16,038 - core.database - INFO - Database connection closed and engine disposed
+2026-05-06 09:31:16,039 - services.database - INFO - Database connections closed
+2026-05-06 09:31:16,039 - services.database - DEBUG - [DB_OP] Database close completed in 0.0681s

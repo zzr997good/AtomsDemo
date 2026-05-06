@@ -1,0 +1,33 @@
+2026-05-06 09:31:26,295 - main - INFO - === Logging system initialized ===
+2026-05-06 09:31:26,295 - main - INFO - Log file: logs/app_20260506_093126.log
+2026-05-06 09:31:26,295 - main - INFO - Log level: INFO
+2026-05-06 09:31:26,296 - main - INFO - Timestamp: 20260506_093126
+2026-05-06 09:31:27,383 - main - INFO - Included router: routers.aihub.router
+2026-05-06 09:31:27,448 - main - INFO - Included router: routers.app_sessions.router
+2026-05-06 09:31:27,467 - main - INFO - Included router: routers.auth.router
+2026-05-06 09:31:27,470 - main - INFO - Included router: routers.health.router
+2026-05-06 09:31:27,533 - main - INFO - Included router: routers.messages.router
+2026-05-06 09:31:27,591 - main - INFO - Included router: routers.plan_annotations.router
+2026-05-06 09:31:27,612 - main - INFO - Included router: routers.settings.router
+2026-05-06 09:31:27,646 - main - INFO - Included router: routers.storage.router
+2026-05-06 09:31:27,654 - main - INFO - Included router: routers.user.router
+2026-05-06 09:31:27,655 - main - INFO - === Application startup initiated ===
+2026-05-06 09:31:27,655 - services.database - INFO - Ignore creating tables
+2026-05-06 09:31:27,655 - services.mock_data - INFO - Ignore initialize data
+2026-05-06 09:31:27,655 - services.auth - INFO - Ignore initialize admin
+2026-05-06 09:31:27,656 - main - INFO - === Application startup completed successfully ===
+2026-05-06 09:31:31,563 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-05-06 09:31:31,809 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/entities/messages
+2026-05-06 09:31:32,187 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/entities/plan_annotations
+2026-05-06 09:31:32,427 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/entities/app_sessions
+2026-05-06 09:31:34,476 - dependencies.auth - DEBUG - Authentication required for request POST /api/v1/entities/app_sessions
+2026-05-06 09:33:59,920 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-05-06 09:33:59,936 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-05-06 09:34:00,987 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-05-06 09:34:01,229 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/entities/messages
+2026-05-06 09:34:01,445 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/entities/plan_annotations
+2026-05-06 09:34:01,662 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/entities/app_sessions
+2026-05-06 09:34:02,902 - dependencies.auth - DEBUG - Authentication required for request POST /api/v1/entities/app_sessions
+2026-05-06 09:34:37,367 - services.database - DEBUG - [DB_OP] Starting database close
+2026-05-06 09:34:37,367 - services.database - INFO - Database connections closed
+2026-05-06 09:34:37,367 - services.database - DEBUG - [DB_OP] Database close completed in 0.0006s

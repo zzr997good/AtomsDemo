@@ -1,0 +1,42 @@
+{
+    "title": "app_sessions",
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer",
+            "description": "Primary key, auto-increment"
+        },
+        "user_id": {
+            "type": "string",
+            "description": "User ID"
+        },
+        "phase": {
+            "type": "string",
+            "description": "Current app phase: idle, planning, architecture, building, complete"
+        },
+        "plan_markdown": {
+            "type": "string",
+            "description": "Current plan markdown content"
+        },
+        "build_complete": {
+            "type": "boolean",
+            "description": "Whether build is complete"
+        },
+        "collaborators_json": {
+            "type": "string",
+            "description": "JSON string of collaborators array"
+        },
+        "modules_json": {
+            "type": "string",
+            "description": "JSON string of modules array"
+        },
+        "comments_json": {
+            "type": "string",
+            "description": "JSON string of comments array"
+        }
+    },
+    "required": [
+        "id",
+        "user_id"
+    ]
+}

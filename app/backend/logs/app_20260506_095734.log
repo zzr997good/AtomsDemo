@@ -1,0 +1,21 @@
+2026-05-06 09:57:34,807 - main - INFO - === Logging system initialized ===
+2026-05-06 09:57:34,807 - main - INFO - Log file: logs/app_20260506_095734.log
+2026-05-06 09:57:34,807 - main - INFO - Log level: INFO
+2026-05-06 09:57:34,807 - main - INFO - Timestamp: 20260506_095734
+2026-05-06 09:57:35,759 - main - INFO - Included router: routers.aihub.router
+2026-05-06 09:57:35,821 - main - INFO - Included router: routers.app_sessions.router
+2026-05-06 09:57:35,835 - main - INFO - Included router: routers.auth.router
+2026-05-06 09:57:35,837 - main - INFO - Included router: routers.health.router
+2026-05-06 09:57:35,887 - main - INFO - Included router: routers.messages.router
+2026-05-06 09:57:35,940 - main - INFO - Included router: routers.plan_annotations.router
+2026-05-06 09:57:35,960 - main - INFO - Included router: routers.settings.router
+2026-05-06 09:57:36,005 - main - INFO - Included router: routers.storage.router
+2026-05-06 09:57:36,062 - main - INFO - Included router: routers.user.router
+2026-05-06 09:57:36,064 - main - INFO - === Application startup initiated ===
+2026-05-06 09:57:36,064 - services.database - INFO - Ignore creating tables
+2026-05-06 09:57:36,065 - services.mock_data - INFO - Ignore initialize data
+2026-05-06 09:57:36,065 - services.auth - INFO - Ignore initialize admin
+2026-05-06 09:57:36,065 - main - INFO - === Application startup completed successfully ===
+2026-05-06 09:57:41,211 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-05-06 10:01:32,690 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
+2026-05-06 10:01:32,703 - dependencies.auth - DEBUG - Authentication required for request GET /api/v1/auth/me
